@@ -10,7 +10,7 @@ export default defineUserConfig({
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     author: "ouHao",
-    authorAvatar: "/head.png",
+    authorAvatar: "/head.jpg",
     // docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
     // docsBranch: "main",
     // docsDir: "example",

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e0c2c870","path":"/blogs/sheying/2023/1.html","title":"武功山","lang":"en-US","frontmatter":{"title":"武功山","date":"2023/10/07","tags":["旅行","江西"],"categories":["摄影"]},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/摄影/2023/1.md"}');export{e as data};

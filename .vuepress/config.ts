@@ -5,7 +5,7 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "ouHaoBlog",
   description: "OuHao's personal blog.",
-  base: "/Blog/",
+  // base: "/Blog/",
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",

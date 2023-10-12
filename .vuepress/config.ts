@@ -8,7 +8,7 @@ export default defineUserConfig({
   // base: "/Blog/",
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
-    logo: "/logo.png",
+    logo: "/head.jpg",
     author: "ouHao",
     authorAvatar: "/head.jpg",
     // docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
@@ -29,9 +29,11 @@ export default defineUserConfig({
     //   ],
     // },
     navbar: [
-      { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/sheying/1/" },
-      { text: "Tags", link: "/tags/lvxing/1/" },
+      { text: "首页", link: "/" },
+      { text: "分类", link: "/categories/sheying/1/" },
+      { text: "标签", link: "/tags/lvxing/1/" },
+      { text: "博客", link: "/posts" },
+      { text: "时间轴", link: "/timeline" },
       // {
       //   text: "Docs",
       //   children: [
@@ -94,6 +96,42 @@ export default defineUserConfig({
     //     },
     //   ],
     // },
+
+    bulletin: {
+      body: [
+        {
+          type: "text",
+          content: `🎉🎉🎉 关于我`,
+          style: "font-size: 12px;",
+        },
+        // {
+        //   type: "title",
+        //   content: "关于我",
+        // },
+        {
+          type: "text",
+          content: `
+          <ul>
+            <li>微信：17767154215</li>
+            <li>QQ：136493245@qq.com</li>
+          </ul>`,
+          style: "font-size: 12px;",
+        },
+        // {
+        //   type: "hr",
+        // },
+        // {
+        //   type: "buttongroup",
+        //   children: [
+        //     {
+        //       text: "扫码",
+        //       link: "/docs/others/donate.html",
+        //     },
+        //   ],
+        // },
+      ],
+    },
+
     // commentConfig: {
     //   type: 'valie',
     //   // options 与 1.x 的 valineConfig 配置一致
@@ -109,5 +147,5 @@ export default defineUserConfig({
     // },
   }),
   // debug: true,
-  head: [["link", { rel: "icon", href: "/Blog/logo.png" }]],
+  head: [["link", { rel: "icon", href: "/head.jpg" }]],
 });

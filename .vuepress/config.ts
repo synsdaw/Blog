@@ -97,40 +97,40 @@ export default defineUserConfig({
     //   ],
     // },
 
-    bulletin: {
-      body: [
-        {
-          type: "text",
-          content: `🎉🎉🎉 关于我`,
-          style: "font-size: 12px;",
-        },
-        // {
-        //   type: "title",
-        //   content: "关于我",
-        // },
-        {
-          type: "text",
-          content: `
-          <ul>
-            <li>微信：17767154215</li>
-            <li>QQ：136493245@qq.com</li>
-          </ul>`,
-          style: "font-size: 12px;",
-        },
-        // {
-        //   type: "hr",
-        // },
-        // {
-        //   type: "buttongroup",
-        //   children: [
-        //     {
-        //       text: "扫码",
-        //       link: "/docs/others/donate.html",
-        //     },
-        //   ],
-        // },
-      ],
-    },
+    // bulletin: {
+    //   body: [
+    //     {
+    //       type: "text",
+    //       content: `🎉🎉🎉 关于我`,
+    //       style: "font-size: 12px;",
+    //     },
+    //     // {
+    //     //   type: "title",
+    //     //   content: "关于我",
+    //     // },
+    //     {
+    //       type: "text",
+    //       content: `
+    //       <ul>
+    //         <li>微信：17767154215</li>
+    //         <li>QQ：136493245@qq.com</li>
+    //       </ul>`,
+    //       style: "font-size: 12px;",
+    //     },
+    //     // {
+    //     //   type: "hr",
+    //     // },
+    //     // {
+    //     //   type: "buttongroup",
+    //     //   children: [
+    //     //     {
+    //     //       text: "扫码",
+    //     //       link: "/docs/others/donate.html",
+    //     //     },
+    //     //   ],
+    //     // },
+    //   ],
+    // },
 
     // commentConfig: {
     //   type: 'valie',

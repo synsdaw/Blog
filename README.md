@@ -6,7 +6,9 @@ modules:
   - MdContent
   - Footer
 bannerBrand:
-  bgImage: "/bg.svg"
+  bgImage: "/源文件_摄影_火车与云朵_haou-1000849.jpg"
+  bgImageStyle:
+    maxHeight: 650px
   title: OuHao's Blog
   description: 分享生活中的每个瞬间。
   tagline: Enjoy life , share love.

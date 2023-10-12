@@ -30,10 +30,10 @@ export default defineUserConfig({
     // },
     navbar: [
       { text: "首页", link: "/" },
+      { text: "时间轴", link: "/timeline" },
       { text: "分类", link: "/categories/sheying/1/" },
       { text: "标签", link: "/tags/lvxing/1/" },
       { text: "博客", link: "/posts" },
-      { text: "时间轴", link: "/timeline" },
       // {
       //   text: "Docs",
       //   children: [

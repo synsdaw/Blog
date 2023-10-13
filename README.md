@@ -4,9 +4,11 @@ modules:
   - BannerBrand
   - Blog
   - MdContent
+  - Comment
   - Footer
-bannerBrand:
-  bgImage: "/源文件_摄影_火车与云朵_haou-1000849.jpg"
+
+bannerBrand: # bannerBrand 模块的配置
+  bgImage: https://blog-1321452376.cos.ap-shanghai.myqcloud.com/%E6%BA%90%E6%96%87%E4%BB%B6/%E6%91%84%E5%BD%B1/%E7%81%AB%E8%BD%A6%E4%B8%8E%E4%BA%91%E6%9C%B5/haou-1000849.jpg
   bgImageStyle:
     maxHeight: 650px
   title: OuHao's Blog
@@ -17,12 +19,20 @@ bannerBrand:
   #   - { text: Default Style, link: "/docs/style-default-api/introduce", type: "plain" }
   # socialLinks:
   #   - { icon: "LogoGithub", link: "https://github.com/vuepress-reco/vuepress-theme-reco" }
-blog:
+
+blog: # blog 模块的配置
   socialLinks:
     - { icon: "LogoGithub", link: "https://github.com" }
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
+
+footer: # 底部模块的配置
+  record: 域名备案文案
+  recordLink: 域名备案地址
+  cyberSecurityRecord: 公安备案文案
+  cyberSecurityLink: 公安备案地址
+  startYear: 2023
 ---
 
 <!-- ## 快速开始

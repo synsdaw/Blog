@@ -97,54 +97,58 @@ export default defineUserConfig({
     //   ],
     // },
 
-    // bulletin: {
-    //   body: [
-    //     {
-    //       type: "text",
-    //       content: `🎉🎉🎉 关于我`,
-    //       style: "font-size: 12px;",
-    //     },
-    //     // {
-    //     //   type: "title",
-    //     //   content: "关于我",
-    //     // },
-    //     {
-    //       type: "text",
-    //       content: `
-    //       <ul>
-    //         <li>微信：17767154215</li>
-    //         <li>QQ：136493245@qq.com</li>
-    //       </ul>`,
-    //       style: "font-size: 12px;",
-    //     },
-    //     // {
-    //     //   type: "hr",
-    //     // },
-    //     // {
-    //     //   type: "buttongroup",
-    //     //   children: [
-    //     //     {
-    //     //       text: "扫码",
-    //     //       link: "/docs/others/donate.html",
-    //     //     },
-    //     //   ],
-    //     // },
-    //   ],
-    // },
+    bulletin: {
+      body: [
+        {
+          type: "text",
+          content: `🎉🎉🎉 关于我`,
+          style: "font-size: 12px;",
+        },
+        // {
+        //   type: "title",
+        //   content: "关于我",
+        // },
+        {
+          type: "text",
+          content: `
+          <ul>
+            <li>微信：17767154215</li>
+            <li>QQ：136493245@qq.com</li>
+          </ul>`,
+          style: "font-size: 12px;",
+        },
+        {
+          type: "image",
+          src: "https://blog-1321452376.cos.ap-shanghai.myqcloud.com/%E6%BA%90%E6%96%87%E4%BB%B6/assets/weixin.jpg",
+        },
+        // {
+        //   type: "hr",
+        // },
+        // {
+        //   type: "buttongroup",
+        //   children: [
+        //     {
+        //       text: "扫码",
+        //       link: "/docs/others/donate.html",
+        //     },
+        //   ],
+        // },
+      ],
+    },
 
-    // commentConfig: {
-    //   type: 'valie',
-    //   // options 与 1.x 的 valineConfig 配置一致
-    //   options: {
-    //     // appId: 'xxx',
-    //     // appKey: 'xxx',
-    //     // placeholder: '填写邮箱可以收到回复提醒哦！',
-    //     // verify: true, // 验证码服务
-    //     // notify: true,
-    //     // recordIP: true,
-    //     // hideComments: true // 隐藏评论
-    //   },
-    // },
+    commentConfig: {
+      type: "valine",
+      // options 与 1.x 的 valineConfig 配置一致
+      options: {
+        appId: "vgUREOpYfbPYdSleUuWtOzCa-gzGzoHsz",
+        appKey: "FB6FEnTqPllIdMPrFA5MJddk",
+        placeholder: "填写邮箱可以收到回复提醒哦！",
+        visitor: true,
+        serverURLs: "http://ohpooh.space",
+        // recordIP: true,
+        // hideComments: true // 隐藏评论
+      },
+    },
   }),
   // debug: true,
   head: [["link", { rel: "icon", href: "/head.jpg" }]],

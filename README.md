@@ -8,7 +8,7 @@ modules:
   - Footer
 
 bannerBrand: # bannerBrand 模块的配置
-  bgImage: https://blog-1321452376.cos.ap-shanghai.myqcloud.com/%E6%BA%90%E6%96%87%E4%BB%B6/%E6%91%84%E5%BD%B1/%E7%81%AB%E8%BD%A6%E4%B8%8E%E4%BA%91%E6%9C%B5/haou-1000849.jpg
+  bgImage: https://blog-1321452376.cos.ap-shanghai.myqcloud.com/%E6%91%84%E5%BD%B1/%E7%81%AB%E8%BD%A6%E4%B8%8E%E4%BA%91%E6%9C%B5/haou-1000849.jpg
   bgImageStyle:
     maxHeight: 650px
   title: OuHao's Blog

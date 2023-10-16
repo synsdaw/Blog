@@ -119,7 +119,7 @@ export default defineUserConfig({
         },
         {
           type: "image",
-          src: "https://blog-1321452376.cos.ap-shanghai.myqcloud.com/%E6%BA%90%E6%96%87%E4%BB%B6/assets/weixin.jpg",
+          src: "https://blog-1321452376.cos.ap-shanghai.myqcloud.com/assets/weixin.jpg",
         },
         // {
         //   type: "hr",
@@ -144,7 +144,7 @@ export default defineUserConfig({
         appKey: "FB6FEnTqPllIdMPrFA5MJddk",
         placeholder: "填写邮箱可以收到回复提醒哦！",
         visitor: true,
-        serverURLs: "http://ohpooh.space",
+        // serverURLs: "http://ohpooh.space",
         // recordIP: true,
         // hideComments: true // 隐藏评论
       },
